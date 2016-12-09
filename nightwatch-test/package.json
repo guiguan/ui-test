@@ -1,0 +1,20 @@
+{
+  "name": "nightwatch-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "external_globals.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "chromedriver": "^2.25.2",
+    "nightwatch": "^0.9.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
