@@ -3,7 +3,7 @@
 @Date:   2016-12-09T16:49:57+11:00
 @Email:  root@guiguan.net
 @Last modified by:   guiguan
-@Last modified time: 2016-12-09T16:59:50+11:00
+@Last modified time: 2016-12-09T18:46:59+11:00
 -->
 
 # Webdriver.io VS Nightwatch
@@ -17,10 +17,38 @@ Just cd to each directory, and do:
 
 ## Findings
 
+Both are:
+
+* selenium based can talk directly to [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/)
+* have good documentations
+* support Slack and CI integration
+* support for [Page Objects](https://github.com/SeleniumHQ/selenium/wiki/PageObjects)
+
+Individually:
+
 1. Nightwatch
-  * pros: nice built-in test runner, stable, fast, chainable syntax, good support for latest node, nice docs
-  * cons: cannot use it with own test frameworks, nor can use it as standalone robot
+  * pros
+    * more github starts
+    * nice built-in test runner
+    * more stable and faster
+    * chainable syntax
+    * good support for latest node
+  * cons
+   * cannot use it with own test frameworks
+   * nor can use it as standalone robot
 
 2. Webdriver.io
-  * pros: flexible, easier to setup for beginners, can be used as a standalone, good docs
-  * cons: buggy (in this demo, if we enable that screenshot, the test case is not included in the final report), a bit slow
+  * pros
+    * more flexible
+    * easier to setup for beginners
+    * can be used as a standalone robot
+  * cons
+    * buggy (in this demo, if we enable that screenshot, the test case is not included in the final report)
+    * a bit slow
+
+## References
+
+* http://webdriver.io/
+* http://nightwatchjs.org/
+* https://github.com/dwyl/learn-nightwatch
+* http://stackoverflow.com/questions/35981605/what-is-the-difference-between-nightwatch-js-and-webdriver-io
