@@ -3,7 +3,7 @@
 @Date:   2016-12-09T16:49:57+11:00
 @Email:  root@guiguan.net
 @Last modified by:   guiguan
-@Last modified time: 2016-12-10T15:08:26+11:00
+@Last modified time: 2016-12-10T15:27:29+11:00
 -->
 
 # Webdriver.io VS Nightwatch
@@ -58,3 +58,7 @@ Individually:
 ### Automated Test
 
 * https://code.facebook.com/projects/319808741494443/huxley/
+
+### Commercial Cloud-based Solutions
+
+* https://www.browserstack.com/
