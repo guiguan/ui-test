@@ -3,10 +3,12 @@
 @Date:   2016-12-09T16:49:57+11:00
 @Email:  root@guiguan.net
 @Last modified by:   guiguan
-@Last modified time: 2016-12-09T18:46:59+11:00
+@Last modified time: 2016-12-10T15:08:26+11:00
 -->
 
 # Webdriver.io VS Nightwatch
+
+Goal of this project is to find the best approach of carrying out UI test for SBS
 
 ## Installation & Run
 
@@ -52,3 +54,7 @@ Individually:
 * http://nightwatchjs.org/
 * https://github.com/dwyl/learn-nightwatch
 * http://stackoverflow.com/questions/35981605/what-is-the-difference-between-nightwatch-js-and-webdriver-io
+
+### Automated Test
+
+* https://code.facebook.com/projects/319808741494443/huxley/
